@@ -20,7 +20,7 @@ const App = () => {
     setList(newList);
   }
 
-  // Função feita para tarefinha de casa.
+  
   const handleTaskChange = (id: number, done: boolean) => {
     let newList = [...list];
     for(let i in newList) {
